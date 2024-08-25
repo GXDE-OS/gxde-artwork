@@ -1,15 +1,15 @@
-Source: deepin-artwork
+Source: gxde-artwork
 Section: misc
 Priority: optional
 Maintainer: LiLongyu <lilongyu@linuxdeepin.com>
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 8),
 
-Package: deepin-artwork
+Package: gxde-artwork
 Architecture: all
 Depends: ${misc:depends},
-    deepin-icon-theme,
+    gxde-icon-theme,
     deepin-gtk-theme,
-Suggests: grub-theme-deepin
-Description: Deepin Artwork 
- This package is a meta package of Deepin Artworks.
+Suggests: grub-theme-gxde
+Description: GXDE Artwork 
+ This package is a meta package of GXDE Artworks.
