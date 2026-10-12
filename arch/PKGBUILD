@@ -1,0 +1,18 @@
+# Maintainer: CharOfString <root@charofstring.cc>
+pkgname=gxde-artwork-git
+pkgver=2024.08.25
+pkgrel=1
+pkgdesc='GXDE artwork (metapackage pulling in the GXDE icon and GTK themes)'
+arch=('any')
+url="https://github.com/GXDE-OS/gxde-artwork"
+license=('GPL-3.0-or-later')
+# 与 Debian 相同，本包不安装文件，只拉取主题 ・ Like on Debian, it ships no files and only pulls in the themes.
+depends=('gxde-icon-theme-git' 'deepin-gtk-theme-git')
+provides=('gxde-artwork')
+conflicts=('gxde-artwork')
+source=()
+sha512sums=()
+
+package() {
+  :
+}
